@@ -27,6 +27,6 @@ int main()
     cout << "Sam has " << sam << " dollars and Sue has " << sue;
     cout << " dollars deposited." << endl
          << "Lucky Sue!\n";
-
+    
     return 0;
 }
