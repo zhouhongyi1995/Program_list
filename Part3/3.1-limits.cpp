@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    int a;
     int n_int = INT_MAX;
     short n_short = SHRT_MAX;
     long n_long = LONG_MAX;
@@ -25,6 +26,7 @@ int main()
 
     cout << "Minimum int value = " << INT_MAX << endl;
     cout << "Bits per byte = " << CHAR_BIT << endl;
+    cin >> a;
 
     return 0;
 }
