@@ -16,5 +16,6 @@ int main()
 
 int stonetolb(int sts)
 {
-    return 14 * sts;
+    int pounds = 14 * sts;
+    return pounds;
 }
