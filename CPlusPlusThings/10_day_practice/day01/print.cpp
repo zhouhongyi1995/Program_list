@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
                 {
                         cout <<" ";
                 }
-                for(f = 1 ;f < 7-2*i; f++)
+                for(f = 1 ;f < 2*i; f++)
                 {
                        cout << "*"; 
                 }
@@ -25,7 +25,7 @@ int main(int argc, char const *argv[])
                 {
                         cout << " ";
                 }
-                for(f=1;f<=7;f++)
+                for(f=1;f<=7-2*i;f++)
                 {
                         cout << "*";
                 }
