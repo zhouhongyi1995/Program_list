@@ -13,10 +13,10 @@ int main()
      cout << "Length of string in str before input: "
           << str.size() << endl;
      cout << "Enter a line of text: \n";
-     cin.getline(charr,20);
+     cin.getline(charr, 20);
      cout << "You entered: " << charr << endl;
      cout << "Enter another line of text:\n";
-     getline(cin ,str);
+     getline(cin, str);
      cout << "You entered: " << str << endl;
      cout << "Length of string in charr after input: "
           << strlen(charr) << endl;
