@@ -15,5 +15,14 @@ int main()
         ;
     }
     cout << "done \a\n";
+    double prices[5] = {
+        4.99,
+        10.99,
+        6.87,
+        7.99,
+        8.49,
+    };
+    for (double x : prices)        //jiyu fanwei de for xunhuan(C++11)
+        cout << x << endl;
     return 0;
 }
