@@ -22,7 +22,7 @@ int main()
     int count = 0;
 
     inFile >> value;
-    while (inFile.good()
+    while (inFile.good())
     {
         ++count;
         sum += value;
