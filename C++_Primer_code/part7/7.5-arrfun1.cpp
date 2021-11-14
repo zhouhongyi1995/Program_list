@@ -15,8 +15,8 @@ int main()
         64,
         128,
     };
-    int sum = sum_arr(cookies, ArSize);
-    cout << "Total cookies eaten: " << sum << endl;
+    int sum = sum_arr(cookies, ArSize);   
+    cout << "Total cookies eaten: " << sum << endl;   //ke zhijie diaoyong hanshu ,erbuxuyao shiyong sum zhuanhuan.
     return 0;
 }
 int sum_arr(int arr[], int n)
