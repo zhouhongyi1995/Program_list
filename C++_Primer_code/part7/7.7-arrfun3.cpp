@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 const int Max = 5;
-int fill_arry(double arp[], int limit);
+int fill_array(double arp[], int limit);
 void show_array(const double ar[], int n);
 void revalue(double r, double ar[], int n);
 
 int main()
 {
     double properties[Max];
-    int size = fill_arry(properties, Max);
+    int size = fill_array(properties, Max);
     show_array(properties, size);
     if (size > 0)
     {
@@ -59,7 +59,7 @@ int fill_array(double ar[], int limit)
     return i;
 }
 
-void show_arry(const double ar[], int n)
+void show_array(const double ar[], int n)
 {
     for (size_t i = 0; i < n; i++)
     {
