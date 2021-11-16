@@ -25,6 +25,7 @@ int main()
         }
         revalue(factor, properties, size);
         show_array(properties, size);
+        
     }
     cout << "Done.\n";
     cin.get();
