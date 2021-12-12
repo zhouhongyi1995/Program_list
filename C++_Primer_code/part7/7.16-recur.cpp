@@ -11,10 +11,12 @@ int main()
 
 void countdown(int n)
 {
-    cout << "Counting down ... " << n << endl;
+    cout << "Counting down ... " << n << " (n at " << &n << " ) " << endl;
     if (n > 0)
     {
         countdown(n - 1);
     }
-    cout << n << ": Kaboom!\n";
+    cout << n << ": Kaboom!"
+         << " (n at " << &n << " ) " << endl;
+    ;
 }
