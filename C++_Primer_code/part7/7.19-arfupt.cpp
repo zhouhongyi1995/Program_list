@@ -43,8 +43,10 @@ int main()
     cout << " Address Value\n";
     auto pc = &pa;
     cout << (*pc)[0](av, 3) << ": " << *(*pc)[0](av, 3) << endl;
+
     const double *(*(*pd)[3])(const double *, int) = &pa;
     const double *pdb = (*pd)[1](av, 3);
+    
     cout << pdb << ": " << *pdb << endl;
     cout << (*(*pd)[2])(av, 3) << ": " << *(*(*pd)[2])(av, 3) << endl;
 
