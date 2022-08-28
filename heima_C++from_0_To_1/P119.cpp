@@ -33,7 +33,7 @@ Building::Building()
     this->m_BedRoom = "卧室";
 };
 
-GoodGay::GoodGay()
+GoodGay::GoodGay()  //类外实现成员函数
 {
     building = new Building;
 };
