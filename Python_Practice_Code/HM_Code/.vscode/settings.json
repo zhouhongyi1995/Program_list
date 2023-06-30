@@ -1,0 +1,5 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "E:\\01-OFFICE SOFTWARE\\07-python\\python.exe"
+}
