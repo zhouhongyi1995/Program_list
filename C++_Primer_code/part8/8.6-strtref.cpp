@@ -49,7 +49,7 @@ int main()
 void display(const free_throws &ft)
 {
     cout << "Name: " << ft.name << '\n';
-    cout << " Made: " << ft.made << '\t';
+    cout << "Made: " << ft.made << '\t';
     cout << "Attempts: " << ft.attempts << '\t';
     cout << "Percent: " << ft.percent << '\n';
 }
