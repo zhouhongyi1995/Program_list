@@ -20,9 +20,17 @@ void test01()
         return;
     }
 
+    cout << "文件打开成功" << endl;
+
     Person p;
 
     ifs.read((char *)&p, sizeof(Person));
+
+    if (ifs.gcount() != sizeof(Person)) {
+        cout << "读取数据失败" << endl;
+        ifs.close();
+        return;
+    }
 
     cout << "姓名：" << p.m_Name << " 年龄：" << p.m_Age << endl;
 
