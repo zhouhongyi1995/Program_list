@@ -20,6 +20,7 @@ int main()
 
     cout << "bunnies address = " << &bunnies;
     cout << ", rodents address = " << &rodents << endl;
+    //引用一旦绑定到某个变量，就不能再绑定到其他变量
 
     return 0;
 }
