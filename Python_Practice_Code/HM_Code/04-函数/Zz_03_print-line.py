@@ -7,5 +7,5 @@ def print_line(char, times):
 	print(char * times)
 
 
-print_line("do you love me\n", 5)
+print_line("hello world\n", 5)
 
