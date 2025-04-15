@@ -16,7 +16,7 @@ int main()
     }
     int val = int(num);
     cout << "You've entered the integer " << val << "\nBye\n";
-    cout << INT_MAX;
+    cout << INT_MAX << endl;
     return 0;
 }
 

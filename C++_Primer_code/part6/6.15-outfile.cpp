@@ -28,8 +28,8 @@ int main()
     cout << "Was asking $" << a_price << endl;
     cout << "Now asking $" << d_price << endl;
 
-    outFile << fixed;
-    outFile.precision(3);
+    outFile << fixed;   //流操纵器，用于设置输出流的浮点数格式
+    outFile.precision(3);   //设置输出流的精度为3位小数
     outFile.setf(ios_base::showpoint);
     outFile << "Make and model: " << automobile << endl;
     outFile << "Year: " << year << endl;
