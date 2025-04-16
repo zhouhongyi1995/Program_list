@@ -8,7 +8,7 @@ enum
     green,
     blue,
     violet,
-    indigo
+    indigo,
 };
 using namespace std;
 

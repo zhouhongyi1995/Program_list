@@ -7,7 +7,7 @@ int main()
     cout << "Enter text for analysis, and type @ to terminate input.\n";
     char ch;
     int whitespace = 0;
-    int digits;
+    int digits = 0;
     int chars = 0;
     int punct = 0;
     int others = 0;

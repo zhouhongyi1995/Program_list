@@ -21,7 +21,7 @@ int main()
     d_price = 0.913 * a_price;
 
     cout << fixed;
-    cout.precision(3);
+    cout.precision(3);  //设置输出流的精度为3位小数
     cout.setf(ios_base::showpoint);
     cout << "Make and model: " << automobile << endl;
     cout << "Year: " << year << endl;
